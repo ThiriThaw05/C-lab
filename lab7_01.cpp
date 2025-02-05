@@ -6,9 +6,9 @@ void concatenateStrings(char *, const char *, int bufferSize);
 bool isSubstring(const char*, const char*);
 
 int main(){
-    const int BUFFERSIZE = 80;
-    char string1[80];
-    char string2[80];
+    const int BUFFERSIZE = 60;
+    char string1[60];
+    char string2[60];
 
     cout<<"Enter two strings: ";
     cin>>string1>>string2;
